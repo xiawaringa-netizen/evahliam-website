@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>EvahLiam | China Procurement & Business Solutions</title>
 <meta name="description" content="EvahLiam helps Kenyan businesses find equipment, products and practical business solutions from China, with sourcing, supplier verification, inspection and delivery coordination.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
   --ink:#151515;
@@ -16,59 +19,62 @@
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+body{margin:0;font-family:'Jost',Arial,sans-serif;font-weight:300;color:var(--ink);background:#fff;line-height:1.6}
 a{text-decoration:none;color:inherit}
 .wrap{width:min(1080px,calc(100% - 40px));margin:auto}
 
 header{background:#fff;border-bottom:1px solid var(--line)}
 nav{height:82px;display:flex;align-items:center;justify-content:space-between}
-.brand{font-family:Georgia,serif;font-size:25px;letter-spacing:.08em;font-weight:600}
-.brand span{font-family:Arial,sans-serif;font-size:10px;letter-spacing:.3em;display:block;color:var(--gold);margin-top:-3px}
-.navlinks{display:flex;align-items:center;gap:28px;font-size:14px}
+.brand{font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;line-height:.9;letter-spacing:.08em;font-weight:700}
+.brand span{font-family:'Jost',Arial,sans-serif;font-size:10px;letter-spacing:.3em;font-weight:500;display:block;color:var(--gold);margin-top:4px}
+.navlinks{display:flex;align-items:center;gap:28px;font-size:14px;font-weight:400}
 .navlinks a:first-child,.navlinks a:nth-child(2){color:#555}
-.navcta{border:1px solid var(--ink);padding:10px 17px;border-radius:3px;font-weight:700}
+.navcta{border:1px solid var(--ink);padding:10px 17px;border-radius:3px;font-weight:600}
 
 .hero{padding:105px 0 115px;text-align:center;border-bottom:1px solid var(--line)}
-.kicker{font-size:11px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
-h1{font-family:Georgia,serif;font-weight:500;font-size:clamp(44px,7vw,72px);line-height:1.08;letter-spacing:-.035em;max-width:850px;margin:18px auto 25px}
-.hero p{max-width:700px;margin:auto;color:var(--muted);font-size:18px}
+.kicker{font-family:'Jost',Arial,sans-serif;font-size:11px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:700}
+h1{font-size:clamp(46px,7vw,76px);line-height:1.02;letter-spacing:-.025em;max-width:850px;margin:18px auto 25px}
+.hero p{max-width:700px;margin:auto;color:var(--muted);font-size:18px;font-weight:300}
 .buttons{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:30px}
-.btn{display:inline-block;padding:13px 21px;border-radius:3px;font-weight:700;font-size:14px}
+.btn{display:inline-block;padding:13px 21px;border-radius:3px;font-family:'Jost',Arial,sans-serif;font-weight:600;font-size:14px}
 .primary{background:var(--ink);color:#fff}
 .secondary{border:1px solid var(--line);background:#fff}
 
 .section{padding:82px 0}
 .cream{background:var(--cream)}
 .center{text-align:center;max-width:720px;margin:0 auto 45px}
-h2{font-family:Georgia,serif;font-weight:500;font-size:clamp(32px,4.5vw,48px);line-height:1.15;letter-spacing:-.025em;margin:10px 0 15px}
-.sub{color:var(--muted);font-size:17px}
+h2{font-size:clamp(34px,4.5vw,50px);line-height:1.08;letter-spacing:-.02em;margin:10px 0 15px}
+.sub{color:var(--muted);font-size:17px;font-weight:300}
 
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .card{padding:32px 28px;border-right:1px solid var(--line)}
 .card:last-child{border-right:0}
-.card .number{font-family:Georgia,serif;font-size:28px;color:var(--gold)}
-.card h3{font-size:18px;margin:10px 0 8px}
-.card p{color:var(--muted);margin:0;font-size:15px}
+.card .number{font-family:'Cormorant Garamond',Georgia,serif;font-size:32px;font-weight:700;color:var(--gold)}
+.card h3{font-size:22px;line-height:1.1;margin:10px 0 8px}
+.card p{color:var(--muted);margin:0;font-size:15px;font-weight:300}
 
 .process{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
 .step{background:#fff;padding:25px 18px;min-height:145px}
-.num{color:var(--gold);font-size:12px;font-weight:800;letter-spacing:.12em}
-.step strong{display:block;margin-top:10px;font-size:15px;line-height:1.35}
+.num{font-family:'Jost',Arial,sans-serif;color:var(--gold);font-size:12px;font-weight:600;letter-spacing:.12em}
+.step strong{display:block;margin-top:10px;font-family:'Jost',Arial,sans-serif;font-size:15px;font-weight:500;line-height:1.35}
 
 .split{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:start}
 .rule{width:50px;height:1px;background:var(--gold);margin:25px 0}
 .list{border-top:1px solid var(--line)}
-.listrow{display:flex;justify-content:space-between;gap:20px;padding:17px 0;border-bottom:1px solid var(--line);font-size:15px}
-.listrow span{color:var(--muted)}
+.listrow{display:flex;justify-content:space-between;gap:20px;padding:17px 0;border-bottom:1px solid var(--line);font-size:15px;font-weight:300}
+.listrow strong{font-weight:500}
+.listrow span{color:var(--muted);font-weight:300}
 
 .cta{padding:75px 0;background:var(--ink);color:#fff;text-align:center}
 .cta h2{max-width:700px;margin:10px auto 18px}
-.cta p{color:#c6c6c6;max-width:600px;margin:auto}
+.cta p{color:#c6c6c6;max-width:600px;margin:auto;font-weight:300}
 .cta .primary{background:#fff;color:var(--ink);margin-top:27px}
 
 footer{padding:35px 0;border-top:1px solid #292929;background:#111;color:#fff}
-.foot{display:flex;justify-content:space-between;gap:25px;flex-wrap:wrap;font-size:13px}
-.foot p{color:#aaa;margin:5px 0 0}
+.foot{display:flex;justify-content:space-between;gap:25px;flex-wrap:wrap;font-size:13px;font-weight:300}
+.foot strong{font-family:'Cormorant Garamond',Georgia,serif;font-size:20px;font-weight:700;letter-spacing:.08em}
+.foot p{color:#aaa;margin:5px 0 0;font-weight:300}
 .gold{color:#d1af76}
 
 @media(max-width:800px){
@@ -86,7 +92,7 @@ footer{padding:35px 0;border-top:1px solid #292929;background:#111;color:#fff}
   .wrap{width:min(100% - 28px,1080px)}
   nav{height:72px}
   .navcta{padding:9px 12px;font-size:13px}
-  h1{font-size:44px}
+  h1{font-size:46px}
 }
 </style>
 </head>
